@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Domain.Entites
+namespace Domain.Entities
 {
     public class Blog
     {

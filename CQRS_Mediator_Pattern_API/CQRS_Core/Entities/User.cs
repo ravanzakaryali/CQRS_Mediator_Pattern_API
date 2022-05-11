@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Domain.Entites
+namespace Domain.Entities
 {
     public class User : IdentityUser
     {
