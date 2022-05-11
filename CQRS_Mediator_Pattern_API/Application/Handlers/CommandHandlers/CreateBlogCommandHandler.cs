@@ -5,6 +5,7 @@ using Persistence.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Application.Handlers.CommandHandlers
 {
@@ -16,9 +17,9 @@ namespace Application.Handlers.CommandHandlers
         {
             _context = context;
         }
-        public CreateBlogCommandResponse CreateBlog(CreateBlogCommandRequest createBlogRequest)
+        public async Task<CreateBlogCommandResponse> CreateBlog(CreateBlogCommandRequest createBlogRequest)
         {
-            _context.Blogs.Add(new Blog
+           await _context.Blogs.AddAsync(new Blog
             {
                 Content = createBlogRequest.Content,
                 Title = createBlogRequest.Title,
