@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace CQRS_Core.Entites
 {
@@ -13,5 +12,6 @@ namespace CQRS_Core.Entites
         public bool IsDeleted { get; set; }
         public DateTime Birthday { get; set; }
         public DateTime RegisterDate { get; set; }
+        public ICollection<Blog> Blogs { get; set; }
     }
 }
