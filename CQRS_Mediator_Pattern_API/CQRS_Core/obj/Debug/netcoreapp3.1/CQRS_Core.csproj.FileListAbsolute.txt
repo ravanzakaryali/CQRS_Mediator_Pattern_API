@@ -1,0 +1,10 @@
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\bin\Debug\netcoreapp3.1\CQRS_Core.deps.json
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\bin\Debug\netcoreapp3.1\CQRS_Core.dll
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\bin\Debug\netcoreapp3.1\CQRS_Core.pdb
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\obj\Debug\netcoreapp3.1\CQRS_Core.csproj.AssemblyReference.cache
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\obj\Debug\netcoreapp3.1\CQRS_Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\obj\Debug\netcoreapp3.1\CQRS_Core.AssemblyInfoInputs.cache
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\obj\Debug\netcoreapp3.1\CQRS_Core.AssemblyInfo.cs
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\obj\Debug\netcoreapp3.1\CQRS_Core.csproj.CoreCompileInputs.cache
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\obj\Debug\netcoreapp3.1\CQRS_Core.dll
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\obj\Debug\netcoreapp3.1\CQRS_Core.pdb
