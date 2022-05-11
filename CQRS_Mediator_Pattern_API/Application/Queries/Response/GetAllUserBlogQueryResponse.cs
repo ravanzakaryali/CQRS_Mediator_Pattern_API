@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Application.Queries.Response
 {
-    public class GetAllUserBlogQeuryResponse
+    public class GetAllUserBlogQueryResponse
     {
         public int Id { get; set; }
         public string Title { get; set; }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Application.Handlers.QueryHandlers
+namespace Application.Queries.Request
 {
-    public class GetAllUserQueryRequest
+    public class GetAllUserBlogQueryRequest
     {
         public string UserId { get; set; }
     }
