@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Application.Commands.Response
 {
-    public class CreateBlogComandResponse
+    public class CreateBlogCommandResponse
     {
         public bool IsSuccess { get; set; }
         public int Id { get; set; }

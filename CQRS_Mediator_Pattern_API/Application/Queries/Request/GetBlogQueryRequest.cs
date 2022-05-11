@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Application.Handlers.QueryHandlers
+namespace Application.Queries.Request
 {
     public class GetBlogQueryRequest
     {
