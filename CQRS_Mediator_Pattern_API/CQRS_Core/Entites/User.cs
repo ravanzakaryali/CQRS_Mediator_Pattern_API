@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CQRS_Core.Entites
+namespace Domain.Entites
 {
     public class User : IdentityUser
     {

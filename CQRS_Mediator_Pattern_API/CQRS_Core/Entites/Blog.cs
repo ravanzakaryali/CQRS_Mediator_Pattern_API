@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CQRS_Core.Entites
+namespace Domain.Entites
 {
     public class Blog
     {
@@ -11,5 +11,7 @@ namespace CQRS_Core.Entites
         public bool IsArchive { get; set; }
         public bool IsDeleted { get; set; }
         public bool IsModified { get; set; }
+        public string UserId { get; set; }
+        public User User { get; set; }
     }
 }

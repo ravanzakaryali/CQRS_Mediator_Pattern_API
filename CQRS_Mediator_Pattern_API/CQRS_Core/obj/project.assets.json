@@ -819,9 +819,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programming\\CQRS_Mediator_Pattern\\CQRS_Mediator_Pattern_API\\CQRS_Core\\CQRS_Core.csproj",
-      "projectName": "CQRS_Core",
-      "projectPath": "E:\\Programming\\CQRS_Mediator_Pattern\\CQRS_Mediator_Pattern_API\\CQRS_Core\\CQRS_Core.csproj",
+      "projectUniqueName": "E:\\Programming\\CQRS_Mediator_Pattern\\CQRS_Mediator_Pattern_API\\CQRS_Core\\Domain.csproj",
+      "projectName": "Domain",
+      "projectPath": "E:\\Programming\\CQRS_Mediator_Pattern\\CQRS_Mediator_Pattern_API\\CQRS_Core\\Domain.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "E:\\Programming\\CQRS_Mediator_Pattern\\CQRS_Mediator_Pattern_API\\CQRS_Core\\obj\\",
       "projectStyle": "PackageReference",

@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS_Mediator_Pattern_API", "CQRS_Mediator_Pattern_API\CQRS_Mediator_Pattern_API.csproj", "{DAE46ED9-13D7-4FCA-9443-B40C188F3C65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS_Core", "CQRS_Core\CQRS_Core.csproj", "{10F8005E-D229-476D-B10E-1B53F3C88B6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "CQRS_Core\Domain.csproj", "{10F8005E-D229-476D-B10E-1B53F3C88B6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{4F1F48A5-E54D-4A38-AD97-9BDBCD421F88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{10F8005E-D229-476D-B10E-1B53F3C88B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10F8005E-D229-476D-B10E-1B53F3C88B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10F8005E-D229-476D-B10E-1B53F3C88B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1F48A5-E54D-4A38-AD97-9BDBCD421F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1F48A5-E54D-4A38-AD97-9BDBCD421F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1F48A5-E54D-4A38-AD97-9BDBCD421F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1F48A5-E54D-4A38-AD97-9BDBCD421F88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

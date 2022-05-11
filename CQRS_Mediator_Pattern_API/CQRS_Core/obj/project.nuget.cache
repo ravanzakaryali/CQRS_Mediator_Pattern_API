@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B40kbCFqBlLivHvt3Z1jOal+VVZs7ALelBT4g5/6MggTTMHFSy3yFyloyd4l7no9/aonip6iIQo0MLaXzG95Ng==",
+  "dgSpecHash": "zMLmOhzQXGEsAdv4d9BUoojez+2t0eitgfP9C26yk9X0BJSkLAl+77UwDMBam2AC9aqIZxevf/4LFkhnDfd7JQ==",
   "success": true,
-  "projectFilePath": "E:\\Programming\\CQRS_Mediator_Pattern\\CQRS_Mediator_Pattern_API\\CQRS_Core\\CQRS_Core.csproj",
+  "projectFilePath": "E:\\Programming\\CQRS_Mediator_Pattern\\CQRS_Mediator_Pattern_API\\CQRS_Core\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.25\\microsoft.aspnetcore.cryptography.internal.3.1.25.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.25\\microsoft.aspnetcore.cryptography.keyderivation.3.1.25.nupkg.sha512",
