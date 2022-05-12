@@ -24,10 +24,12 @@ namespace Application.Handlers.CommandHandlers
                 Title = request.Title,
                 UserId = request.UserId,
             });
+            await _context.SaveChangesAsync();
             return new CreateBlogCommandResponse
             {
                 UserId = request.UserId,
                 IsSuccess = true,
+                Id = blog.Entity.Id,
             };
         }
     }

@@ -1,20 +1,19 @@
+using Application.Commands.Request;
+using Application.Commands.Response;
+using Application.Handlers.CommandHandlers;
+using Application.Handlers.QueryHandlers;
 using Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Persistence.Data;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Reflection;
 
 namespace CQRS_Mediator_Pattern_API
 {
@@ -30,8 +29,15 @@ namespace CQRS_Mediator_Pattern_API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.AddTransient<CreateBlogCommandHandler>();
+            services.AddTransient<DeleteBlogCommandHandler>();
+            services.AddTransient<GetAllBlogQueryHandler>();
+            services.AddTransient<GetAllUserBlogQueryHandler>();
+            services.AddTransient<GetBlogQueryHandler>();
+
             services.AddControllers();
-            services.AddMediatR(typeof(Startup));
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("Default"));
