@@ -66,6 +66,7 @@ namespace CQRS_Mediator_Pattern_API
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

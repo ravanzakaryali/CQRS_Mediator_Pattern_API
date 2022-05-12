@@ -27,9 +27,16 @@ namespace CQRS_Mediator_Pattern_API.Controllers
                 Firstname = "Revan",
                 Lastname = "Zakaryali",
                 Birthday = new DateTime(2021, 11, 20),
+                UserName = "revanzli"
             };
-            await _userManager.CreateAsync(user);
-            await _userManager.CreateAsync(user, "R123456@");
+            var result = await _userManager.CreateAsync(user, "Rz123456@");
+            if (!result.Succeeded)
+            {
+                foreach (IdentityError error in result.Errors)
+                {
+                    return StatusCode(StatusCodes.Status403Forbidden, new { status = error.Code, message = error.Description });
+                }
+            }
             return NoContent();
         } 
     }
