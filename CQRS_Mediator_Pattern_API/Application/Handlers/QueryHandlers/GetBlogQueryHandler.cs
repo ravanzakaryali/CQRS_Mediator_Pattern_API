@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.Handlers.QueryHandlers
 {
-    class GetBlogQueryHandler
+    public class GetBlogQueryHandler
     {
         private readonly AppDbContext _context;
 

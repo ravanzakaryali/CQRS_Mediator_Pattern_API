@@ -2,7 +2,7 @@
 
 namespace Application.Queries.Response
 {
-    public class GetBlogQeuryResponse
+    public class GetBlogQueryResponse
     {
         public int Id { get; set; }
         public string Title { get; set; }

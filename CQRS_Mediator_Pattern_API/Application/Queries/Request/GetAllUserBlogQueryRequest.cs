@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Application.Queries.Request
 {
-    public class GetAllUserBlogQueryRequest
+    public class GetAllUserBlogQueryRequest : IRequest
     {
         public string UserId { get; set; }
     }

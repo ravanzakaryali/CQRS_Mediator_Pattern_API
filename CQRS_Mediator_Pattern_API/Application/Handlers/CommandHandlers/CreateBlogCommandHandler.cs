@@ -1,12 +1,14 @@
 ﻿using Application.Commands.Request;
 using Application.Commands.Response;
 using Domain.Entities;
+using MediatR;
 using Persistence.Data;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Application.Handlers.CommandHandlers
 {
-    public class CreateBlogCommandHandler
+    public class CreateBlogCommandHandler : IRequestHandler<CreateBlogCommandRequest,CreateBlogCommandResponse>
     {
         private readonly AppDbContext _context;
 
@@ -14,17 +16,17 @@ namespace Application.Handlers.CommandHandlers
         {
             _context = context;
         }
-        public async Task<CreateBlogCommandResponse> CreateBlog(CreateBlogCommandRequest createBlogRequest)
+        public async Task<CreateBlogCommandResponse> Handle(CreateBlogCommandRequest request, CancellationToken cancellationToken)
         {
-           await _context.Blogs.AddAsync(new Blog
+            var blog = await _context.Blogs.AddAsync(new Blog
             {
-                Content = createBlogRequest.Content,
-                Title = createBlogRequest.Title,
-                UserId = createBlogRequest.UserId,
+                Content = request.Content,
+                Title = request.Title,
+                UserId = request.UserId,
             });
             return new CreateBlogCommandResponse
             {
-                UserId = createBlogRequest.UserId,
+                UserId = request.UserId,
                 IsSuccess = true,
             };
         }
