@@ -13,3 +13,6 @@ E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Application\obj\D
 E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
 E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Application\obj\Debug\netcoreapp3.1\Application.dll
 E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Application\obj\Debug\netcoreapp3.1\Application.pdb
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Application\bin\Debug\netcoreapp3.1\Application.runtimeconfig.json
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Application\bin\Debug\netcoreapp3.1\Application.runtimeconfig.dev.json
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Application\obj\Debug\netcoreapp3.1\Application.genruntimeconfig.cache

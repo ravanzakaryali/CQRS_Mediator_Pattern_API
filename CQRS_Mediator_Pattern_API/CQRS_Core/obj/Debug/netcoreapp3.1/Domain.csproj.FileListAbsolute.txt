@@ -8,3 +8,6 @@ E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\obj\Deb
 E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\obj\Debug\netcoreapp3.1\Domain.dll
 E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\obj\Debug\netcoreapp3.1\Domain.pdb
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.json
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.dev.json
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\CQRS_Core\obj\Debug\netcoreapp3.1\Domain.genruntimeconfig.cache

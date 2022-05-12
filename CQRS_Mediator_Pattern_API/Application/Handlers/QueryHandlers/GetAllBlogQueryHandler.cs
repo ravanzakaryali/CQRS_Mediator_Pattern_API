@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Application.Handlers.QueryHandlers
 {
-    public class GetAllBlogQueryHandler : IRequestHandler<GetAllBlogQueryRequest, List<GetAllBlogQueryResponse>>>
+    public class GetAllBlogQueryHandler : IRequestHandler<GetAllBlogQueryRequest, List<GetAllBlogQueryResponse>>
     {
         private readonly AppDbContext _context;
 
@@ -51,7 +51,7 @@ namespace Application.Handlers.QueryHandlers
                 };
                 allBlog.Add(newBlog);
             }
-            return allBlog
+            return allBlog;
         }
     }
 }

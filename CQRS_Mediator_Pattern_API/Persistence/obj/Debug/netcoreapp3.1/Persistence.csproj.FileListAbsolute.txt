@@ -11,3 +11,6 @@ E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Persistence\obj\D
 E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CopyComplete
 E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Persistence\obj\Debug\netcoreapp3.1\Persistence.dll
 E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Persistence\obj\Debug\netcoreapp3.1\Persistence.pdb
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Persistence\bin\Debug\netcoreapp3.1\Persistence.runtimeconfig.json
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Persistence\bin\Debug\netcoreapp3.1\Persistence.runtimeconfig.dev.json
+E:\Programming\CQRS_Mediator_Pattern\CQRS_Mediator_Pattern_API\Persistence\obj\Debug\netcoreapp3.1\Persistence.genruntimeconfig.cache
