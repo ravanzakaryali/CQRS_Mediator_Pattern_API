@@ -1,14 +1,16 @@
 ﻿using Application.Queries.Request;
 using Application.Queries.Response;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Data;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Application.Handlers.QueryHandlers
 {
-    public class GetBlogQueryHandler
+    public class GetBlogQueryHandler : IRequestHandler<GetBlogQueryRequest, GetBlogQueryResponse>
     {
         private readonly AppDbContext _context;
 
@@ -16,9 +18,9 @@ namespace Application.Handlers.QueryHandlers
         {
             _context = context;
         }
-        public async Task<List<GetBlogQueryResponse>> GetUserBlogs(GetBlogQueryRequest getAllUserBlog)
+        public async Task<GetBlogQueryResponse> Handle(GetBlogQueryRequest request, CancellationToken cancellationToken)
         {
-            return await _context.Blogs.Where(b => b.Id == getAllUserBlog.Id).Select(blog => new GetBlogQueryResponse
+            return await _context.Blogs.Where(b => b.Id == request.Id).Select(blog => new GetBlogQueryResponse
             {
                 Id = blog.Id,
                 Title = blog.Title,
@@ -26,7 +28,7 @@ namespace Application.Handlers.QueryHandlers
                 CreatedDate = blog.CreatedDate,
                 IsModified = blog.IsModified,
                 UserId = blog.UserId,
-            }).ToListAsync();
+            }).FirstOrDefaultAsync();
         }
     }
 }

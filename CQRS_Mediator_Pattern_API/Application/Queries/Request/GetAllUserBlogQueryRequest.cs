@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Application.Queries.Request
 {
-    public class GetAllUserBlogQueryRequest : IRequest<GetAllBlogQueryResponse>
+    public class GetAllUserBlogQueryRequest : IRequest<List<GetAllUserBlogQueryResponse>>
     {
         public string UserId { get; set; }
     }

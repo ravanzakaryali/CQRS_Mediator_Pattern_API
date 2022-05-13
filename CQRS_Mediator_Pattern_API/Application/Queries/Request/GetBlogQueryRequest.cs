@@ -8,6 +8,6 @@ namespace Application.Queries.Request
 {
     public class GetBlogQueryRequest : IRequest<GetBlogQueryResponse> 
     {
-        public int  Id { get; set; }
+        public int Id { get; set; }
     }
 }
